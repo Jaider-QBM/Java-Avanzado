@@ -1,0 +1,213 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+  display: flex;
+  height: 50px;
+  background: #005AA7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFFDE4, #005AA7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFFDE4, #005AA7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 10px;
+}
+
+.titl-name{
+  display: flex;
+  margin-right: 150px;
+}
+
+.titl-name .logo img{
+  width: 30px;
+}
+.titl-name .name h1{
+  margin-left: 6px;
+  font-size: 20px;
+}
+.titl-name .name {
+  margin-top: 10px;
+}
+
+.botones{
+  display: flex;
+  list-style: none;
+  
+}
+
+ul , ol {
+  list-style: none;
+}
+
+.lista li a {
+  color: #000000;
+  text-decoration: none;
+  padding: 15px 50px;
+  display: block;
+}
+
+.menu{
+  z-index: 100;
+}
+
+.menu li a:hover{
+  color: azure;
+}
+
+.lista > li{
+  float: left;
+}
+
+.lista li ul {
+  display: none ;
+  position: absolute;
+}
+
+.lista li:hover > ul{
+  display: block;
+}
+
+.lista li ul li 
+{
+  position: relative;
+}
+
+main{
+  background: #005AA7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFFDE4, #005AA7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFFDE4, #005AA7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  display: flex;
+  justify-content: center;
+}
+.formulario{
+  box-shadow: 0 0 20px #000000;
+  width: 500px;
+  padding: 70px;
+  margin: 60px;
+}
+.formulario .titulo{
+  color: rgb(13, 114, 114) ;
+}
+
+.requi{
+  margin: 30px;
+  width: 320px;
+}
+
+.requi li{
+  margin-top: 10px;
+}
+
+.requi li input{
+  margin-top: 10px;
+  border-radius: 10px;
+  width: 300px;
+  height: 30px;
+}
+
+.requi button{
+  width: 70px;
+  height: 40px;
+  color: #FFFDE4;
+  background-color: rgb(2, 9, 88);
+  border-radius: 15px;
+  margin-top: 15px;
+}
+
+.deco{
+  width: 400px;
+  margin-top: 60px;
+  margin-left: 50px;
+  height: 930px;
+}
+
+.deco .info{
+  margin-top: 80px;
+}
+
+.deco .info h1{
+  color: aqua;
+}
+
+.deco .info p{
+  margin-top: 20px;
+}
+
+.div img{
+  width: 250px;
+  margin-top: 60px;
+  margin-left: 50px;
+  border-radius: 15px;
+}
+
+footer{
+  height: auto;
+  padding: 10px;
+  clear: both;
+  background: rgb(37, 37, 37);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.text-1{
+  position: relative;
+  width: 30%;
+  margin: 20px;
+  height: auto;
+}
+
+.text-1 .comu{
+  font-size: 18px;
+}
+.text-1 .bog{
+  margin-top: 10px;
+}
+
+.text-1 .linea {
+  height: 2px;
+  width: auto;
+  background: rgb(94, 93, 93);
+  margin-top: 15px;
+
+}
+.text-1 ul {
+  margin-top: 10px;
+  list-style: none;
+}
+
+.text-1 ul li{
+  margin-top: 5px;
+}
+
+.text-1 ul li a{
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.text-1 ul li a:hover{
+  color: #a3a3a3;
+}
+
+.text-1 img {
+  width: 90px;
+  height: 90px;
+  border-radius: 100px;
+}
+
+.text-1 .imagen{
+  margin-left: 50%;
+  margin-top: 20px;
+}
+
+.text-1 .nombre{
+  width: 70%;
+  margin-top: -80px;
+  margin-left: 20px;
+}
+
+.text-1 .nombre a{
+  text-decoration: none;
+  color: aliceblue;
+}
