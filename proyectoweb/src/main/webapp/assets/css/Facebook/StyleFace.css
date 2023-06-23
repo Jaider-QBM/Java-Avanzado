@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 4pc;
+    background: black;
+    display: flex;
+    justify-content: center;  
+}
+
+.t{
+    display: flex;
+    align-items: center;
+    width: 1200px;
+}
+
+.titl-name{
+    display: flex;
+    align-items: center;
+    width: 15pc;
+}
+
+.titl-name .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+}
+
+.titl-name .logo img{
+    width: 30px;
+}
+
+.titl-name .name{
+    margin-left: 5px;
+}
+.titl-name .name h1{
+    color: #fff;
+    font-size: 20px;
+}
+
+
+.botones{
+    display: flex;
+    margin-left: auto;
+    gap: 50px;
+    text-transform: uppercase;
+    list-style: none;
+}
+
+ul , ol {
+    list-style: none;
+}
+
+.botones li a {
+    position: relative;
+    color: rgba(205, 207, 205, 0.5);
+    padding: 0.5em 0.8rem;
+    text-decoration: none;
+}
+
+.botones a::before,
+.botones  a::after{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    content: '';
+    opacity: 0;
+}
+
+.botones  a::before{
+    right: 0;
+    top: 0;
+    border-right: 3px solid #07d111;
+    border-top: 3px solid #07d111;
+}
+
+.botones li a::after{
+    left: 0;
+    bottom: 0;
+    border-left: 3px solid #07d111 ;
+    border-bottom: 3px solid #07d111;
+}
+
+.botones a:hover, a .botones .home a{
+    color: #fff;
+}
+
+.botones  a:hover:before,
+.botones .home a:before,
+.botones a:hover:after,
+.botones .home a:after{
+    opacity: 1;
+}
+
+.menu{
+    z-index: 100;
+}
+
+.menu li a:hover{
+    color: azure;
+}
+
+.lista > li{
+    float: left;
+}
+
+.lista li ul {
+    display: none ;
+    position: absolute;
+}
+
+.lista li:hover > ul{
+    display: block;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.espe{
+    width: 100%;
+}
+
+/* Facebook*/
+
+.quien{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    background: #000046;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.quien .pa{
+    margin-right: 10pc;
+}
+.quien h1{
+    width: 26pc;
+    font-size: 45px;    
+}
+
+.quien p{
+    margin-top: 15px;
+    font-size: 20px;
+    width: 26pc;
+}
+
+.quien .imagen{
+    height: 80%;
+}
+
+.quien img{
+    width: 100%;
+    height: 100%;
+}
+
+.fun{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    background:#ffffff ;
+}
+
+.fun .til{
+    margin-left: 10pc;
+}
+
+.fun h1{
+    width: 26pc;
+    font-size: 45px;
+    color: #1094F4;
+}
+.fun p{
+    margin-top: 15px;
+    font-size: 20px;
+    width: 26pc;
+}
+.fun .imagen1{
+    height: 80%;
+}
+.fun img{
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+footer{
+    height: 15pc;
+    background: black ;
+    color: aliceblue;
+    clear: both;
+    display: flex;
+    justify-content: center;
+}
+
+footer .info{
+    display: flex;
+    width: 1200px;
+}
+
+footer .text-1{
+    position: relative;
+    width: 50% ;
+    margin: 20px;
+    height: 10pc;
+    float: right;
+}
+
+footer .text-1 .comu{
+    font-size: 20px;
+}
+
+
+footer .text-1 .linea{
+    height: 2px;
+    width: auto;
+    background: rgb(94, 93, 93);
+    margin-top: 15px;
+}
+
+footer .text-1 ul {
+    margin-top: 10px;
+}
+
+footer .text-1 ul li{
+    margin-top: 5px;
+    list-style: none;
+}
+
+footer .text-1 ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+footer .text-1 ul li a:hover{
+    color: #a3a3a3;
+}
+
+footer .text-2{
+    width: 50% ;
+    height: 10pc;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+}
+
+footer .text-2 .imagen a img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+}
+
+footer .text-2 .imagen{
+    width: 6pc;
+
+    background: #e6ffda;
+    border-radius: 80px;
+}
+
+footer .text-2 .nombre{
+    width: 35%;
+    height: 30px;
+    margin-left: auto;
+}
+
+footer .text-2 .nombre a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+footer .conte .linea1{
+    height: 2px;
+    width: 50pc;
+    background: rgb(94, 93, 93);
+    margin-top: 15px;
+}
